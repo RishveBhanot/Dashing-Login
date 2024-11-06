@@ -1,0 +1,117 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background: #fff;
+    padding-bottom: 30px;
+    width: 600px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text{
+    color: #790979;
+    font-size: 50px;
+    font-weight: 600;
+}
+.underline{
+    width: 95px;
+    height: 10px;
+    background: #790979;
+    border-radius: 6px;
+}
+.inputs{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 70px;
+    background: #eaeaea;
+    border-radius: 8px;
+}
+.input-container img{
+    margin: 0px 30px;
+}
+
+.input-container input{
+    height: 40px;
+    width: 400px;
+    margin-right: 8px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.forgot_password{
+    padding-left: 60px;
+    margin-top: 35px;
+    color: #797979;
+    font: 19px;
+}
+
+.forgot_password span{
+    cursor: pointer;
+    color: #4c00b4;
+}
+
+.submit_container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 60px;
+    color: #797979;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.submit:hover{
+    background: #4c00b4;
+    color: #fff;
+}
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
+.error-text{
+    position: absolute;
+    right: 10px;
+    color: red;
+}
+.submit:disabled {
+    background-color: gray;
+    color: white;
+    cursor: not-allowed;
+    filter: grayscale(100%);
+}
+.valid-icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
